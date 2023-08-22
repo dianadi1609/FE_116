@@ -7,40 +7,42 @@
  </head>
  <body>
 <form method="post" action="#" name="contact">
-<label><span>Повне ім'я</span>
-<input type="text" name="fullname" required>
-</label>
-<label><span>Email</span>
-<input type="email" name="email" required>
-</label>
-<label><span>Пароль</span>
-<input type="password" name="password" required>
-</label>
-<label><span>Ще раз пароль</span>
-<input type="password" name="repassword" required>
-</label>
-<label><span>Стать</span>
-<input type="radio" name="sex" required placeholder="1">
-<label>чоловіча</label>
-<input type="radio" name="sex" required placeholder="1">
-<label>жіноча</label></label>
-<label><span>Вік</span>
-<input type="number" name="age"></label>
-<label><span>Курс</span>
-<select name="course">
-<option>Виберіть курс</option>
-    <option value="Front-End">Front-End</option> 
-    <option value="Qa Manual">Qa Manual</option> 
-    <option value="Back-End">Back-End</option> 
-    <option value="Project Management">Project Management</option>
-</select></label>
-<label><span>Повна адреса</span>
-<textarea placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
-</label>
-<label><input type="checkbox" checked>Я погоджуюсь з обробкою персональних даних</label>
-<div class="container-buttons">
-<button type="reset">Очистити форму</button>
-<button type="submit">Зареєструватися</button>
-</div>
+  <label><span>Повне ім'я</span>
+    <input type="text" name="fullname" required>
+  </label>
+  <label><span>Email</span>
+    <input type="email" name="email" required>
+  </label>
+  <label><span>Пароль</span>
+    <input type="password" name="password" required>
+  </label>
+  <label><span>Ще раз пароль</span>
+    <input type="password" name="repassword" required>
+  </label>
+  <label><span>Стать</span>
+    <input id="man" type="radio" name="sex" required>
+    <label for="man">чоловіча</label>
+    <input id="woman" type="radio" name="sex" required>
+    <label for="woman">жіноча</label></label>
+  <label><span>Вік</span>
+    <input type="number" name="age">
+  </label>
+  <label><span>Курс</span>
+    <select name="course">
+      <option>Виберіть курс</option>
+      <option value="Front-End">Front-End</option>
+      <option value="Qa Manual">Qa Manual</option>
+      <option value="Back-End">Back-End</option>
+      <option value="Project Management">Project Management</option>
+    </select>
+  </label>
+  <label><span>Повна адреса</span>
+    <textarea placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+  </label>
+  <label><input type="checkbox" checked>Я погоджуюсь з обробкою персональних даних</label>
+  <div class="container-buttons">
+    <button type="reset">Очистити форму</button>
+    <button type="submit">Зареєструватися</button>
+  </div>
 </form>
 <body>
