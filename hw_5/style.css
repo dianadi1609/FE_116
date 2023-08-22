@@ -1,7 +1,7 @@
 .container {
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .container header {
     height: 46px;
@@ -101,7 +101,22 @@ a:hover {
     font-weight: 600;
     line-height: normal;
 }
-.tools h2 {
+.items {
+    justify-content: space-between;
+    display: flex;
+}
+.items div {
+    display: inline-block;
+    width: 270px;
+    gap: 30px;
+    flex-shrink: 0;
+}
+.design {
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.design h2 {
     color: #2F281E;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -116,23 +131,25 @@ a:hover {
     margin-right: 331px;
     margin-bottom: 50px;
 }
-.items div { 
-    display: flex;
+.item h3 {
+    color: #2F281E;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 16px;
 }
-.item1 {
-    width: 265px;
-    margin-right: 40px;
-}
-.item2 {
-    width: 265px;
-    margin-right: 40px;
-}
-.item3 {
-    width: 265px;
-}
-.item4 {
-    width: 265px;
-    margin-left: 40px;
+.item p {
+    color: #544837;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* simple-text */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
 }
 .signup {
     width: 180px;
@@ -152,4 +169,4 @@ a:hover {
     margin-top: 70px;
     margin-left: 515px;
     margin-right: 515px;
-    }
+}
