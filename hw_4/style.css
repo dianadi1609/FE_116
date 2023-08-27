@@ -1,0 +1,19 @@
+form { 
+display: flex;
+flex-direction: column;
+gap:15px;
+}
+form span {
+width: 70px;
+display: block;
+float: left;
+}
+form button {
+    width: 120px;
+display: flex;
+justify-content: space-between;
+}
+.container-buttons {
+    display: flex;
+    gap: 15px;
+}
