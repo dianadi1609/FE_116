@@ -200,9 +200,6 @@
 .item3:hover .author .icons {
     opacity: 1;
 }
-.icons:hover a {
-    cursor: pointer;
-}
 .item3 .author .icons {
     position: absolute;
     width: 100%;
@@ -215,7 +212,7 @@
     z-index: 1;
     border-radius: 20px;
 }
-.item3 .author .icons a img {
+.item3 .author .icons img {
     width: 40px;
     height: 40px;
 }
