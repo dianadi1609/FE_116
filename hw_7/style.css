@@ -200,6 +200,10 @@
 .item3:hover .author .icons {
     opacity: 1;
 }
+.item3 .author .icons .logo img {
+    cursor: pointer;
+}
+
 .item3 .author .icons {
     position: absolute;
     width: 100%;
