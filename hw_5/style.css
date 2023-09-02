@@ -112,9 +112,13 @@ a:hover {
     flex-shrink: 0;
 }
 .design {
-    width:100%;
-    max-width: 1200px;
-    margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    background-image:url("bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 78px;
+    background-size: 140%;
 }
 .design h2 {
     color: #2F281E;
@@ -130,6 +134,11 @@ a:hover {
     margin-left: 331px;
     margin-right: 331px;
     margin-bottom: 50px;
+}
+.items {
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
 }
 .item h3 {
     color: #2F281E;
