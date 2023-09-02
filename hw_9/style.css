@@ -3,22 +3,22 @@
     width: 100%;
     margin: 0 auto;
 }
-.container {
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+.header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 13px;
+    height: 80px;
     display: flex;
-    margin-bottom: 70px;
+    align-items: center;
     justify-content: space-between;
-    position: fixed;
-    top:0;
-    left: 120px;
-    right: 120px;
-    background-color: white;
-}
-.logo svg {
-    margin-right: 120px;
 }
 .eng {
     width: 50px;
@@ -68,7 +68,6 @@
 }
 .menu {
     width: 400px;
-    margin-left: -50px;
 }
 .documentation {
     width: 100%;
@@ -114,10 +113,11 @@
     margin-bottom: 70px;
     margin-right: 120px;
 }
-.bg img {
-    position: sticky;
+.bg {
+    position: fixed;
     right: 0;
     z-index:-2;
+    top: 150px;
 }
 .chapter-1 h2 {
     color: #000;
