@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web-forms</title>
+  <link href="./reset.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="left">
+    <form>
+    <h2>Create an Account</h2>
+    <div class="wrapper">
+    <label>
+      First Name
+      <input class="input" type="text" name="first_name" />
+    </label> 
+    <label>
+      Last name
+      <input class="input" type="text" name="last_name" />
+    </label>
+  </div>
+  <div class="email">
+  <label>E-mail
+    <input class="input" type="email" name="email" required>
+  </label>
+  <p>We'll never share your email with anyone else.</p>
+  </div>
+  <div class="radio">
+    <label><input type="radio" name="radio"><div class="icon"></div> Male</label>
+    <label><input type="radio" name="radio"><div class="icon"></div> Female</label>
+  </div>
+  <div class="wrapper">
+    <label>Country
+      <div class="select">
+        <select name="country">
+          <option value disabled selected hidden>Select</option>
+          <option>Country 1</option>
+          <option>Country 2</option>
+          <option>Country 3</option>
+        </select>
+        <img src="arrow.svg" alt="">
+      </div>
+    </label> 
+    <label>
+      City
+      <input type="text" name="city" />
+    </label>
+  </div>
+  <div class="container-button">
+    <button type="submit">Sign up</button>
+  </div>
+  <div class="text">
+    <p>By clicking the 'Sign Up' button, you confirm that you accept our<br><span><a href="#">Terms of Use</a></span>
+       and <span><a href="#">Policy.</a></span></p>
+    <div></div>
+  </div>
+  <div class="login">
+    <p>Have an account? <span><a href="#">Log In</a></span></p>
+  </div>
+</form>
+</section>
+<section class="right">
+  <h2>Profile</h2>
+  <div class="wrapper2">
+    <img src="userpic.png" alt="">
+      <div class="input2"> 
+        <input type="text">
+        <img src="icon-photo.svg"> 
+      </div>
+      <button type="reset"><img src="trash.svg" alt=""></button>
+      <p>Up to 1 MB (300x300 px)</p>
+  </div>
+    <form>
+      <div class="wrapper">
+      <label>
+        Name
+        <input class="input" type="text" name="name" />
+      </label> 
+      <label>
+        E-mail
+        <input class="input" type="email" name="email" required />
+      </label>
+      </div>
+      <div class="wrapper">
+        <label>Country
+          <div class="select">
+            <select name="country"></select>
+            <img src="arrow.svg" alt="">
+          </div>
+        </label> 
+        <label>
+          City
+          <input type="text" name="city" />
+        </label>
+      </div>
+      <div class="wrapper">
+        <label>
+          Zip Code
+          <input class="input" type="text" name="code" />
+        </label> 
+        <label>
+          Phone Number
+          <input class="input" type="text" name="phone" required />
+        </label>
+        </div>
+        <button class="update" type="submit">Update</button>
+      </form>
+</section>
+</body>

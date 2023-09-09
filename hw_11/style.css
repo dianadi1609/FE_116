@@ -1,0 +1,305 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+}
+.left {
+    display: flex;
+    max-width: 100%;
+    width: 570px;
+    height: 590px;
+    margin-left: 34px;
+}
+.wrapper {
+    display: flex;
+    margin-right: 34px;
+    gap: 12px;
+}
+h2 {
+    color: #1C1C1C;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 245px;
+    margin-top: 10px;
+}
+ .input {
+    display: flex;
+    width: 245px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+.input:focus  {
+    border: 1px solid #007BFF;
+    outline: none;
+    }
+.email label {
+    margin-top: 20px;
+}
+.email input {
+    display: flex;
+    width: 508px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    border-color: #E4E4E4;
+}
+.input:focus {
+    border: 1px solid #007BFF;
+    outline: none;
+}
+.email p {
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.radio {
+    display: flex;
+    gap: 21px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 165px;
+}
+.radio label {
+    flex-direction: row;
+    position: relative;
+}
+.radio input {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.radio input:checked + div {
+    border: 4px solid #007BFF;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #E4E4E4;
+    position: absolute;
+    box-sizing: border-box;
+}
+.wrapper label select {
+    padding: 10px;
+    gap: 7px;
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.wrapper select {
+    display: flex;
+    width: 245px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+.wrapper input {
+    width: 245px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+select:focus {
+    border: 1px solid #007BFF;
+    outline: none;
+}
+.select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+}
+.select img {
+    position: absolute; 
+}
+.select {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 250px;
+}
+.container-button button {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    width: 500px;
+    height: 38px;
+    background-color: #007BFF;
+    border-radius: 7px;
+    border-color: unset;
+    border-style:none;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; 
+}
+.text p {
+    width: 410px;
+    height: 36px;
+    text-align: center;
+    margin-left: 47px;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+}
+.text span a {
+    color: #007BFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+}
+.text div {
+    border: 1px solid #E4E4E4;
+    width: 510px;
+    border-bottom: unset;
+    border-right: unset;
+    border-left: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login {
+    display: flex;
+}
+.login p {
+    color: #545454;
+    margin-left: 162px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+.login span a {
+    color: #007BFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; 
+    text-decoration: none;
+    margin-left: 20px;
+}
+.right {
+    max-width: 100%;
+    width: 570px;
+    height: 590px;
+}
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 80px 138px 30px ;
+    grid-template-rows: 40px 40px;
+    gap: 10px;
+    grid-template-areas: 'photo input button'
+                         'photo text text';
+    margin-bottom: 10px;
+}
+.wrapper2 img {
+    grid-area: photo;
+    margin-right: 10px;
+}
+.wrapper2 input {
+    grid-area: input;
+    width: 138px;
+    height: 30px;
+    box-sizing: border-box;
+    position: relative;
+    color: #545454;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+.wrapper2 button {
+    grid-area: button;
+    width: 30px;
+    height: 30px;
+    color: #545454;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+.wrapper2 p {
+    grid-area: text;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: -10px;
+}
+.input2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.input2 input {
+    position: relative;
+}
+.input2 img {
+    position: absolute;
+    margin-top: 7px;
+}
+.update {
+    width: 150px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    background-color: #007BFF;
+    border-radius: 7px;
+    border-color: unset;
+    border-style:none;
+    margin-top: 28px;
+}
+
+
