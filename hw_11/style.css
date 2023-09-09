@@ -1,6 +1,7 @@
 body {
     display: flex;
-    margin: 55px 135px 55px 135px;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     gap: 30px;
 }
@@ -22,7 +23,7 @@ h2 {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px;
     margin-top: 35px;
     margin-bottom: 20px;
 }
@@ -141,9 +142,9 @@ select:focus {
     outline: none;
 }
 .select select {
-   -webkit-appearance: none;
-  -moz-appearance: none;
-   appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     position: relative;
 }
 .select img {
