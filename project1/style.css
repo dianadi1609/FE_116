@@ -679,8 +679,7 @@ display: flex;
 .social {
     display: flex;
 }
-.facebook svg:hover {
-fill: #3B5998;
-opacity: 1;
-
+.facebook svg path:hover {
+background: url(img/);
 }
+
