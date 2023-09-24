@@ -679,8 +679,9 @@ display: flex;
 .social {
     display: flex;
 }
-.facebook svg:hover {
-fill: #3B5998;
-opacity: 1;
-
+.social .social-item svg {
+    --social_icon_color: #fff;
+}
+.social .social-item:hover svg {
+    --social_icon_color: #3B5998;
 }
