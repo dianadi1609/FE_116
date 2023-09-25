@@ -63,22 +63,23 @@ a:hover {
 }
 .leftside h2 {
     color: #212353;
-font-family: Work Sans;
-font-size: 80px;
-font-style: normal;
-font-weight: 700;
-line-height: 110%; 
-}
+    font-family: Work Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; 
+    }
 .leftside p {
     color:#4B5D68;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-width: 370px;
-height: 117px;
-margin-top: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    width: 370px;
+    height: 117px;
+    margin-top: 50px;
+    text-align: start
 }
 .leftside button {
     display: flex;
@@ -125,15 +126,16 @@ margin-top: 50px;
 }
 .text_section h2 {
     color: #212353;
-font-family: Work Sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%;
-margin-top: 110px;
-margin-bottom: 40px;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: 110px;
+    margin-bottom: 40px;
 }
 .text_section p {
+    text-align: start;
     color: #4B5D68;
     font-family: Montserrat;
     font-size: 18px;
@@ -226,7 +228,7 @@ p {
     text-align: center;
     margin-left: 100px;
     margin-right: 20px;
-    }
+ }
 .arrow1 img {
     width: 20px;
     height: 14px;
@@ -384,7 +386,7 @@ p {
 }
 .section4 img {
     position: relative;
-width: 1170px;
+    width: 1170px;
 
 }
 .section4 h2 {
@@ -402,110 +404,110 @@ width: 1170px;
 }
 .review1 {
     border-radius: 50px;
-border: 1px solid #9C69E2;
-background: #FFF;
-box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
-width: 465px;
-height: 300px;
-position: absolute;
-top: 200px;
-left: 70px;
+    border: 1px solid #9C69E2;
+    background: #FFF;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    width: 465px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
 }
 .review1 img {
     width: 90px;
-height: 90px;
-border-radius: 50%;
-top: 50px;
-left: 30px;
+    height: 90px;
+    border-radius: 50%;
+    top: 50px;
+    left: 30px;
 }
 .review1 h2 {
     color:#212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%;
-margin-left: 135px;
-margin-top: 50px;
-top: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin-left: 135px;
+    margin-top: 50px;
+    top: 0;
 }
 .review1 h3 {
     color: #9C69E2;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-letter-spacing: 0.14px;
-margin-top: -20px;
-margin-left: 135px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    letter-spacing: 0.14px;
+    margin-top: -20px;
+    margin-left: 135px;
 }
 .review1 p {
     margin-left: 135px;
     margin-top: 20px;
     text-align: left;
     color: #4B5D68;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-width: 300px;
-height: 131.313px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    width: 300px;
+    height: 131.313px;
 }
 .review2 {
     border-radius: 50px;
-border: 1px solid #9C69E2;
-background: #FFF;
-box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
-width: 465px;
-height: 300px;
-position: absolute;
-top: 200px;
-right: 70px;
-margin-left: 50px;
+    border: 1px solid #9C69E2;
+    background: #FFF;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    width: 465px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    margin-left: 50px;
 }
 .review2 img {
     width: 90px;
-height: 90px;
-border-radius: 50%;
-top: 50px;
-left: 30px;
+    height: 90px;
+    border-radius: 50%;
+    top: 50px;
+    left: 30px;
 }
 .review2 h2 {
     color:#212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%;
-margin-left: 135px;
-margin-top: 50px;
-top: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin-left: 135px;
+    margin-top: 50px;
+    top: 0;
 }
 .review2 h3 {
     color: #9C69E2;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-letter-spacing: 0.14px;
-margin-top: -20px;
-margin-left: 135px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    letter-spacing: 0.14px;
+    margin-top: -20px;
+    margin-left: 135px;
 }
 .review2 p {
     margin-left: 135px;
     margin-top: 20px;
     text-align: left;
     color: #4B5D68;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-width: 300px;
-height: 131.313px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    width: 300px;
+    height: 131.313px;
 }
 .section5 {
     display: flex;
@@ -514,63 +516,64 @@ height: 131.313px;
 }
 .section5 h2 {
     color: #212353;
-font-family: Work Sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; 
-margin-right: 463px;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    margin-right: 463px;
 }
 .button1 {
     width: 210px;
-height: 60px;
-justify-content: center;
-align-items: center;
-gap: 15px;
-border-radius: 50px;
-border: 1px solid #F063B8;
-background: #F063B8;
-box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
-color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-margin-right: 30px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 50px;
+    border: 1px solid #F063B8;
+    background: #F063B8;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    margin-right: 30px;
 }
 .button1:hover {
     background: #EB4BAB;;
 }
 .button2 {
     width: 210px;
-height: 60px;
-justify-content: center;
-align-items: center;
-gap: 20px;
-border-radius: 50px;
-border: 1px solid #9C69E2;
-background: #FFF;
-box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
-color: #212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-letter-spacing: 0.08px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    border: 1px solid #9C69E2;
+    background: #FFF;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    color: #212353;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    letter-spacing: 0.08px;
 }
 .button2:hover {
     background: #9C69E2;
 }
-.section6 {
+.footer {
     color: #212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 160%; 
-display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+    display: flex;
+    margin-bottom: 110px;
 }
 .logotype {
     display: flex;
@@ -578,91 +581,91 @@ display: flex;
 }
 .logotype a img {
     width: 49px;
-height: 35px;
+    height: 35px;
 }
 .logotype h2 {
     color: #212353;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 160%; 
-margin-left: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+    margin-left: 10px;
 }
 .contacts h3 {
     color: #212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 180%; 
-letter-spacing: 0.16px;
-width: 275px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; 
+    letter-spacing: 0.16px;
+    width: 275px;
 }
 .contacts p {
     color:#212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 180%; 
-letter-spacing: 0.16px;
-text-align: start;
-margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+    letter-spacing: 0.16px;
+    text-align: start;
+    margin-top: 5px;
 }
 .about_nav {
     margin-left: 200px;
 }
 .about_nav h2 {
     color:#212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 160%; 
-margin-bottom: 30px;
-margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 .about_nav nav ul {
     height: 134px;
 }
 .about_nav ul li a {
     color: #4B5D68;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-text-decoration: unset;
-height: 35px;
-display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    text-decoration: unset;
+    height: 35px;
+    display: flex;
 }
 .help_nav {
     margin-left: 170px;
 }
 .help_nav h2 {
     color:#212353;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 160%; 
-margin-bottom: 30px;
-margin-top: 3px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+    margin-bottom: 30px;
+    margin-top: 3px;
 }
 .help_nav nav ul {
     height: 134px;
 }
 .help_nav ul li a {
     color: #4B5D68;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
-text-decoration: unset;
-height: 35px;
-display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    text-decoration: unset;
+    height: 35px;
+    display: flex;
 }
 .about_nav a:hover {
         color: #8A40EE;
@@ -678,8 +681,291 @@ display: flex;
 }
 .social {
     display: flex;
+    gap: 15px;
 }
-.facebook svg path:hover {
-background: url(img/);
+.social .social-item svg {
+    --social_icon_color: #fff;
 }
+.social .social-item-facebook:hover svg {
+    --social_icon_color: #3B5998;
+    border: 1px solid #3B5998;
+    border-radius: 50%;
+}
+.social .social-item-twitter:hover svg {
+    --social_icon_color: #00ACEE;
+    border: 1px solid #00ACEE;
+    border-radius: 50%;
+}
+.social .social-item-instagram:hover svg {
+    --social_icon_color: #C13584;
+    border: 1px solid #C13584;
+    border-radius: 50%;
+}
+.data p {
+    width: 285px;
+    height: 40px;
+    color: #212353;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 180%; 
+    letter-spacing: 0.12px;
+    text-align: start;
+    margin-bottom: 120px;
+}
+@media (max-width: 425px) {
+    .container header button {
+        margin-left: 0;
+    }
+    .logo  {
+        width: 65px;
+    }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+     }
+     .leftside h2 {
+        font-size: 30px;
+     }
+     .leftside p {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+     }
+     .leftside button {
+        width: 100px;
+        height: 40px;
+        font-size: small;
+     }
+     .rightside img {
+        width: 300px;
+        margin-top: 30px;
+        margin-right: -90px;
+     }
+     .section2 {
+        margin-left: 30px;
+     }
+     .section2 img {
+        height: 200px;
+        margin-left: 0;
+        margin-top: 0;
+     }
 
+     .text_section h2 {
+        font-size: 20px;
+        margin-left: -120px;
+        margin-top: 50px;
+        width: 80px;
+     }
+     .text_section p {
+        font-size: 15px;
+        margin-left: -310px;
+        margin-top: 100px;
+        width: 250px;
+     }
+     h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .top_cards {
+        display: block;
+    }
+    .first_card {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .first_card p {
+        margin-left: 20px;
+    }
+    .photo1 {
+        top: -30px;
+        left: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .arrow1  h3 {
+        margin-left: 70px
+    }
+    .second_card {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .second_card p {
+        margin-left: 20px;
+    }
+    .photo1 {
+        top: -30px;
+        left: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .arrow1  h3 {
+        margin-left: 70px
+    }
+    .bottom_cards {
+        display: block;
+    }
+    .third_card {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .third_card p {
+        margin-left: 20px;
+    }
+    .photo1 {
+        top: -30px;
+        left: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .arrow1  h3 {
+        margin-left: 70px
+    }
+    .four_card {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .four_card p {
+        margin-left: 20px;
+    }
+    .photo1 {
+        top: -30px;
+        left: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .arrow1  h3 {
+        margin-left: 70px
+    }
+    .section4 img {
+        width: 400px;
+        height: 800px;
+    }
+    .section4 h2 {
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    .review1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .review1 p {
+        width: 200px;
+    }
+    .review1  {
+        margin-top: -130px;
+        margin-left: -50px;
+        width: 350px;
+    }
+    .review2 img{
+        width: 100px;
+        height: 100px;
+    }
+    .review2 p {
+        width: 200px;
+    }
+    .review2  {
+        margin-top: 200px;
+        left: -30px;
+        width: 350px;
+        }
+    .section5 h2 {
+        margin-left: 120px;
+        margin-right: 0;
+        width: 350px;
+        }
+        .button1 {
+            width: 150px;
+            margin-left: 100px;
+        }
+        .button2 {
+            width: 150px;
+            margin-left: 100px;
+
+        }
+        .section5 p {
+            width: 200px;
+            margin-left: 90px;
+
+        }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .about_nav {
+            margin-left: -70px;
+        }
+        .help_nav {
+            margin-top: -200px;
+        }
+        .sm {
+            margin-left: 0;
+        }
+        .data {
+            margin-left: 10px;
+        }
+     }
+@media (min-width: 426px) and (max-width: 768px) {
+    .container header button {
+        font-size: 12px;
+    }
+    .leftside p {
+        margin-left: 10px;
+    }
+    .rightside img {
+        margin-right: -400px;
+    }
+    .section2 {
+        margin-left: 270px;
+        width: 800px;
+    }
+    .section2 img {
+        width: 200px;
+        height: 200px;
+    }
+    .text_section h2 {
+        width: 300px;
+         }
+         .text_section p {
+            margin-left: 0;
+        width: 320px;
+         }
+         h1 {
+            margin-left: 300px;
+         }
+         p {
+            margin-left: 300px;
+         }
+         .review2 {
+            left: 500px;
+         }
+         .section5 h2 {
+            margin-right: 0;
+            margin-left: 400px;
+         }
+         .button1 {
+            margin-left: 300px;
+         }
+         .contacts h3 {
+            margin-left: 10px;
+         }
+         .contacts p {
+            margin-left: 10px;
+         }
+         .data p {
+            margin-left: 10px;
+         }
+         .button2 {
+            margin-left: 300px;
+         }
+     }
+     
+    
