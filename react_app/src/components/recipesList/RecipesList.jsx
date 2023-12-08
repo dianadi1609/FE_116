@@ -38,6 +38,14 @@ function RecipesList() {
         <div key={index} className="recipe">
           <Link to={"/recipes/"} className="link">
             <h2>{item.recipe.label}</h2>
+            <p className="ingredients">
+            <b>Ingredients: </b> 
+            {item.recipe.ingredientLines.map((ingredient)=>(
+              <p>{ingredient}</p> 
+            ))}
+          </p>
+            <p>Calories: {item.recipe.calories}</p>
+            <p>Cuisine type: {item.recipe.cuisineType}</p>
             <img src={item.recipe.image}/>
           </Link>
         </div>

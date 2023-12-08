@@ -5,6 +5,7 @@
 }
 header {
     display: flex;
+    
 }
 .logo img {
     margin-right: 280px;

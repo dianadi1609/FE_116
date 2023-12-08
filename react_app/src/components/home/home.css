@@ -1,0 +1,53 @@
+.leftside h2 {
+    color: #000;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.leftside p {
+    color: rgba(0, 0, 0, 0.60);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.icons {
+    display: flex;
+}
+.lefticon {
+    border-radius: 30px;
+background: rgba(0, 0, 0, 0.05);
+width: 139px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center
+}
+.lefticon span {
+    color: rgba(0, 0, 0, 0.60);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.righticon {
+    border-radius: 30px;
+background: rgba(0, 0, 0, 0.05);
+width: 139px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center
+}
+.righticon span {
+    color: rgba(0, 0, 0, 0.60);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
