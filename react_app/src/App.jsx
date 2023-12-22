@@ -10,9 +10,10 @@ import About from './components/about/About';
 import NotFoundPage from './components/notFoundPage/NotFoundPage';
 
 
+
 function App() {
   return (
-    <Routes>
+    <Routes> 
       <Route>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
