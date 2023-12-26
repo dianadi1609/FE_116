@@ -43,3 +43,7 @@ nav ul li a:hover {
 .instagram:hover * {
     fill: blue;
 }
+
+.wishlist.liked svg path{
+  fill: red
+}
