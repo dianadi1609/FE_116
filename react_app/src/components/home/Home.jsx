@@ -16,6 +16,19 @@ import pancake from "../../assets/img/pancake.png";
 import salad from "../../assets/img/salad.png";
 import cheese from "../../assets/img/cheese.png";
 import adv from "../../assets/img/adv.png";
+import star from "../../assets/img/star.png";
+import orangepie from "../../assets/img/orangepie.png";
+import pasta from "../../assets/img/pasta.png";
+import rice from "../../assets/img/rice.png";
+import chef from "../../assets/img/chef.png";
+import post from "../../assets/img/post.png";
+import post2 from "../../assets/img/post2.png";
+import post3 from "../../assets/img/post3.png";
+import post4 from "../../assets/img/post4.png";
+import insta2 from "../../assets/img/insta2.svg";
+import veg from "../../assets/img/veg.png";
+import plate from "../../assets/img/plate.png";
+
 
 import { ReactComponent as Like } from "../../assets/img/like.svg"; 
 
@@ -181,10 +194,112 @@ function Home () {
             </div>
         </div>
         <div className= 'advert'>
-            <h2>Don’t forget to eat healthy food</h2>
-            <img src={adv} alt="Advertisement." />
-
+            <h2>Don’t forget to eat<br /> healthy food</h2>
+            <img className= 'adv' src={adv} alt="Advertisement." />
+            <img className= 'star' src={star} alt="Star." />
         </div>
+        </div>
+        <div className= 'recipes3'>
+        <div className= 'six'>
+            <Like className="like" />
+            <img src={orangepie} alt="Orangepie." />
+            <h4>Fruity Pancake with Orange & Blueberry</h4>
+            <div className= 'iconsrecipes'>
+                <div className= 'timing'>
+                <Timer className="timer" />
+                <p>30 minutes</p>
+                </div>
+                <div className= 'category'>
+                <Forkknife className="forkknife" />
+                <p>Sweet</p>
+                </div>
+            </div>
+        </div>
+            <div className= 'seven'>
+                <Like className="like" />
+                <img src={rice} alt="Rice." />
+                <h4>The Best Easy One Pot Chicken and Rice</h4>
+            <div className= 'iconsrecipes'>
+            <div className= 'timing'>
+                <Timer className="timer" />
+                <p>30 minutes</p>
+            </div>
+                <div className= 'category'>
+                <Forkknife className="forkknife" />
+                <p>Snack</p>
+                </div>
+            </div>
+            </div>
+            <div className= 'eight'>
+                <Like className="like" />
+                <img src={pasta} alt="Pasta." />
+                <h4>The Creamiest Creamy Chicken and Bacon Pasta</h4>
+                <div className= 'iconsrecipes'>
+                <div className= 'timing'>
+                <Timer className="timer" />
+                <p>30 minutes</p>
+                </div>
+                <div className= 'category'>
+                <Forkknife className="forkknife" />
+                <p>Noodles</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div className= 'sectionchef'>
+           <div className='cheftext'>
+            <h2>Everyone can be a<br /> chef in their own kitchen</h2>
+            <h3>Welcome to The Foodieland where we share restaurant-quality<br />
+                 recipes you can easily make at home. We’re so happy to have 
+                 you here at our dinner table and we’re here for you with 
+                 hundreds of recipes to feed you and your family. Feel free 
+                 to browse through some of our featured recipes here, or visit
+                 our recipe index where you can browse by different cuts of
+                 meat and other categories. Or use the search bar at the top
+                 of every page to search by recipe or ingredient.</h3>
+            <div className= 'button2'>
+                <a href= "/about">
+                <div className= 'textbutton2'>
+                    <p>Learn More</p>
+                </div>
+                </a>
+            </div>
+            </div>
+            <img src={chef} alt="Chef." />
+        </div>
+        <div className='instagram'>
+            <h2>Check out @foodieland on Instagram</h2>
+            <p>In the past years, we have used our social
+                media page on Facebook to consequently supply updates,
+                news and fun facts to people that are interested in Follow-Me.
+                From now on, in addition to Facebook posts, we will also start 
+                posting interesting news on Instagram.</p>
+            <div className='postsinstagram'>
+            <img src={post} alt="Post." />
+            <img src={post2} alt="Post2." />
+            <img src={post3} alt="Post3." />
+            <img src={post4} alt="Post4." />
+            </div>
+            <div className= 'button3'>
+                <a href= "https://www.instagram.com/">
+                <div className= 'textbutton3'>
+                    <p>Visit Our Instagram</p>
+                    <img src={insta2} alt="Logoinstagram." />
+                </div>
+                </a>
+            </div>
+        </div>
+        <div className='emailform'>
+            <h2>Deliciousness to your inbox</h2>
+            <h3>Subscribe to receive free updated and recipes vie e-mail</h3>
+            <div className='vegetables'>
+                <img src={veg} alt="Vegetables." />
+                <form>
+                <input type="email" name="email" placeholder="Your E-mail Address ..." required />
+                <button className='buttonsubmit'>Subscribe</button>
+                </form>
+                <img src={plate} alt="Plate." />
+            </div>
         </div>
         </>
     )

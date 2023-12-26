@@ -91,10 +91,10 @@ line-height: normal;
 }
 .button  {
     border-radius: 16px;
-background: #000;
-width: 200px;
-height: 60px;
-flex-shrink: 0;
+    background: #000;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
 }
 .textbutton {
     display: flex;
@@ -104,12 +104,12 @@ flex-shrink: 0;
     margin-top: 20px;
     margin-left: 45px;
     color: #FFF;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
 }
 .textbutton img {
     margin-left: 140px;
@@ -455,6 +455,338 @@ line-height: normal;
 .advert {
     background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
     width: 400px;
-    height: 434px;
-    flex-shrink: 0;
+    height: 450px;
+    position: relative;
+    margin-top: 20px;
 }
+.advert h2 {
+    color: #FFF;
+    top: 35px;
+    left: 100px;
+    font-family: Lobster;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+.adv {
+    position: relative;
+    z-index: +1;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.star {
+    position: absolute;
+    left: 0;
+}
+.recipes2 {
+    display: flex;
+    gap: 30px;
+}
+.four {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 370px;
+}
+.four img {
+    width: 340px;
+    height: 230px;
+    border-radius: 7%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    transition-duration: .15s;
+}
+.four img:hover {
+    transform: scale(1.1);
+}
+.four h4 {
+    margin-left: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+}
+.five {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 370px;
+}
+.five img {
+    width: 340px;
+    height: 230px;
+    border-radius: 7%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    transition-duration: .15s;
+}
+.five img:hover {
+    transform: scale(1.1);
+}
+.five h4 {
+    margin-left: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+}
+.recipes3 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 130px;
+}
+.six {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 370px;
+}
+.six img {
+    width: 340px;
+    height: 230px;
+    border-radius: 7%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    transition-duration: .15s;
+}
+.six img:hover {
+    transform: scale(1.1);
+}
+.six h4 {
+    margin-left: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+}
+.seven {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 370px;
+}
+.seven img {
+    width: 340px;
+    height: 230px;
+    border-radius: 7%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    transition-duration: .15s;
+}
+.seven img:hover {
+    transform: scale(1.1);
+}
+.seven h4 {
+    margin-left: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+}
+.eight {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 370px;
+}
+.eight img {
+    width: 340px;
+    height: 230px;
+    border-radius: 7%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    transition-duration: .15s;
+}
+.eight img:hover {
+    transform: scale(1.1);
+}
+.eight h4 {
+    margin-left: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+}
+.sectionchef h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.sectionchef h3 {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.sectionchef {
+    display: flex;
+}
+.button2  {
+    border-radius: 16px;
+    background: #000;
+    width: 200px;
+    height: 60px;
+    margin-top: 70px;
+}
+.textbutton2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.textbutton2 p {
+    margin-top: 20px;
+    margin-left: 60px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.instagram {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+    height: 964px;
+    margin-bottom: 160px;
+}
+.instagram h2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+    margin-bottom: 24px;
+}
+.instagram p {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.postsinstagram {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+.button3 {
+    width: 229px;
+    height: 60px;
+    border-radius: 16px;
+    background: #000;
+    margin-left: 450px;
+}
+.textbutton3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.textbutton3 p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+.textbutton3 img {
+    margin-left: 140px;
+    margin-top: -20px;
+}
+.emailform {
+    border-radius: 60px;
+    background: #E7F9FD;
+}
+.emailform h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+.emailform h3 {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.vegetables {
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+.vegetables img {
+    border-radius: 60px;
+}
+form {
+    position: relative;
+    margin-top: 64px;
+}
+form input {
+    width: 480px;
+    height: 80px;
+    border-radius: 24px;
+    background: #FFF;
+    border: 1px solid #BCD0E5;
+    align-items: center;
+    display: flex;
+}
+::-webkit-input-placeholder {
+    text-align:center;
+}
+.buttonsubmit {
+    border-radius: 16px;
+    background: #000;
+    width: 160px;
+    height: 60px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+    
+
