@@ -76,6 +76,7 @@ function Home () {
              </div>
             </a>
         </div>
+         
         </div>
         </div>
         <div className= 'chiken'>

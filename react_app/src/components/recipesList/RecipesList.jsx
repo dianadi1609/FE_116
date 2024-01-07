@@ -1,3 +1,4 @@
+import './recipeslist.css';
 import {useEffect, useState} from "react";
 import axios from "axios";
 import React from "react";
@@ -12,6 +13,7 @@ const apiId = "ea0d8161";
 
 function RecipesList() {
   const [recipes, setRecipes] = useState(null);
+  const [search, setSearch] = useState('');
   const [error, setError] = useState(null);
   const [liked, setLiked] = useState(() => {
     let items = [];
@@ -43,21 +45,45 @@ function RecipesList() {
        window.localStorage.removeItem('label-' + label, );
      }
   }
-  useEffect(() => {
-    axios.get(baseURL, {
+  
+  function searchRecipe (e) {
+    e.preventDefault();
+    console.log(search)
+        axios.get(baseURL, {
       params: {
         type: type,
         app_id: apiId,
         app_key: apiKey,
-        q: query
-      }
+        query: search,
+        q: search
+    }
+  })
+    .then(response => {
+      setRecipes(response.data.hits);
     })
-        .then(response => {
-          setRecipes(response.data.hits);
-        })
-        .catch(error => {
-          setError(error);
-        })
+    .catch(error => {
+      setError(error);
+    })
+  }
+
+  function getRecipes () {
+    axios.get(baseURL, {
+      params: {
+        type: type,
+        app_id: apiId,
+        app_key: apiKey
+    }
+  })
+    .then(response => {
+      setRecipes(response.data.hits);
+    })
+    .catch(error => {
+      setError(error);
+    })
+  }
+
+  useEffect(() => {
+    getRecipes();
   }, []);
 
   if (error) {
@@ -74,8 +100,11 @@ function RecipesList() {
             <h2>{item.recipe.label}</h2>
             <p className="ingredients">
             <b>Ingredients: </b> 
-            {item.recipe.ingredientLines.map((ingredient)=>(
-              <p>{ingredient}</p> 
+            {item.recipe.ingredientLines.map((ingredient, index)=>(
+              <>
+              <div key={index}>
+              <p>{ingredient}</p></div>
+              </>
             ))}
           </p>
             <p>Calories: {item.recipe.calories}</p>
@@ -84,9 +113,26 @@ function RecipesList() {
           </Link>
         </div>
     );
-    return <div className="reciprs">
-      {items}
-    </div>;
+    return (
+      <>
+      <form 
+        onSubmit={searchRecipe}
+        className='search'
+      >
+        <div className='form-items '>
+        <input 
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          />
+        <button type="submit">Search</button>
+        </div>
+      </form>
+      <div className= "recipessearch">
+       {items}
+      </div>
+      </>
+    )
   }
 
 }

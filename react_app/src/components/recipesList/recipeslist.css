@@ -1,0 +1,31 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.form-items {
+    display: flex;
+    position: relative;
+}
+.form-items input {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.form-items button {
+    border-radius: 16px;
+    background: #000;
+    display: flex;
+    width: 160px;
+    height: 60px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+}

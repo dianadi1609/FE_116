@@ -32,7 +32,7 @@ nav ul li a:hover {
 .social {
     display: flex;
     margin-left: 220px;
-    gap: 15px;
+    gap: 25px;
     height: 20px;
 }
 .facebook:hover * {

@@ -14,7 +14,7 @@ function Header () {
       </div>
       <MainMenu />
       <div className= 'social'>
-      <a href="#"><Facebook className="facebook" width="25" height="25" /></a>
+        <a href="#"><Facebook className="facebook" width="25" height="25" /></a>
         <a href="#"><Twitter className="twitter" width="25" height="25" /></a>
         <a href="https://www.instagram.com/"><Instagram className="instagram" width="25" height="25" /></a>
         </div> 

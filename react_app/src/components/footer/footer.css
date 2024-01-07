@@ -3,12 +3,23 @@
     max-width: 1200px;
     margin: 50px auto 50px auto;
 }
-header {
+footer {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .logo img {
     margin-right: 280px;
+}
+.logo p {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
 }
  nav ul {
     display: flex;
@@ -29,6 +40,35 @@ li:hover  {
 nav ul li a:hover {
     color: blue;
 }
+.vector {
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    width: 1200px;
+    margin-top: 50px;
+}
+.lastsection {
+    width: 1200px;
+    display: flex;
+    margin-left: 450px;
+    justify-content: space-between;
+}
+.webflow p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Eudoxus Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.webflow p span {
+    color: #FF7967;
+    font-family: Eudoxus Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .social {
     display: flex;
     margin-left: 220px;

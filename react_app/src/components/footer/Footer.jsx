@@ -11,14 +11,21 @@ function Footer () {
     return (
         <footer className= 'containerfooter'>
         <div className= 'logo'>
-      <Link to="/"><img src={logo} alt="Foodieland." /></Link>
+          <Link to="/"><img src={logo} alt="Foodieland." /></Link>
+          <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+        </div>
+        <MainMenu />
+        <div className= 'vector'></div>
+        <div className='lastsection'>
+        <div className='webflow'>
+          <p>© 2020 Flowbase. Powered by <span>Webflow</span></p>
+        </div>
+        <div className='social'>
+          <a href="#"><Facebook className="facebook" width="25" height="25" /></a>
+          <a href="#"><Twitter className="twitter" width="25" height="25" /></a>
+          <a href="https://www.instagram.com/"><Instagram className="instagram" width="25" height="25" /></a>
       </div>
-      <MainMenu />
-      <div className= 'social'>
-      <a href="#"><Facebook className="facebook" width="25" height="25" /></a>
-        <a href="#"><Twitter className="twitter" width="25" height="25" /></a>
-        <a href="https://www.instagram.com/"><Instagram className="instagram" width="25" height="25" /></a>
-        </div> 
+      </div>
       </footer>
     )
 }
