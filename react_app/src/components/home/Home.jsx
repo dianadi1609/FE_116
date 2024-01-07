@@ -267,7 +267,7 @@ function Home () {
             </div>
             <img src={chef} alt="Chef." />
         </div>
-        <div className='instagram'>
+        <div className='classinstagram'>
             <h2>Check out @foodieland on Instagram</h2>
             <p>In the past years, we have used our social
                 media page on Facebook to consequently supply updates,
@@ -301,6 +301,7 @@ function Home () {
                 <img src={plate} alt="Plate." />
             </div>
         </div>
+        
         </>
     )
 }
