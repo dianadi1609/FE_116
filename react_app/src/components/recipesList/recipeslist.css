@@ -48,8 +48,8 @@
 }
 .recipe .wishlist {
     position: absolute;
-    top: 30px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
 }
 .recipe .wishlist svg circle{
     fill: #d7b32e42;
