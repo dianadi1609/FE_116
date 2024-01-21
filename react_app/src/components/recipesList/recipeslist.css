@@ -32,15 +32,33 @@
 .recipessearch {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
     justify-items: center;
     margin-top: 100px;
 }
 .recipe {
-    margin-top: 50px;
     background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #d7b32e42 100%);
     border-radius: 20px;
-    height: 600px;
+    overflow: hidden;
+    min-height: 530px;
+    width: 100%;
+    height: auto;
     text-align: center;
+    position: relative;
+}
+.recipe .wishlist {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+.recipe .wishlist svg circle{
+    fill: #d7b32e42;
+}
+.recipe .wishlist svg path{
+    fill: #fff;
+}
+.recipe .wishlist.liked svg path{
+    fill: red;
 }
 .recipe h2 {
     color: black;
@@ -50,12 +68,11 @@
     font-weight: 600;
     line-height: 32px;
     height: 90px;
-    width: 300px;
 }
 .recipe img {
     height: 300px;
-    width: 300px;
-    margin-top: 20px;
+    width: 100%;
+    object-fit: cover;
 }
 .titleofingredients b {
     color: #000;
@@ -91,7 +108,7 @@
     color: white;
     margin-top: 10px;
     width: 140px;
-    padding: 5px 0;
+    padding: 15px 30px;
     background-color: #f14807ad;
     font-size: 1.3rem;
     align-self: flex-start;

@@ -103,7 +103,6 @@ function RecipesList() {
   } else if (recipes) {
     const items = recipes.map((item, index) =>
         <div key={index} className="recipe">
-          <Link to={"/recipes/"} className="link">
             <div onClick={setWishList} data-label={item.recipe.label} className={liked.includes(item.recipe.label) ? "wishlist liked" : "wishlist"}>
               <Like></Like>
             </div>
@@ -112,9 +111,8 @@ function RecipesList() {
           <div className='caloriesandtype'>
             <p>Calories: {item.recipe.calories}</p>
             <h4>Cuisine type: {item.recipe.cuisineType}</h4>
-            <a href={item.recipe.url}>Link to the recipe</a>
+            <Link to={item.recipe.url} target="_blank" rel="noopener noreferrer">Link to the recipe</Link>
           </div>
-          </Link>
         </div>
     );
     return (
