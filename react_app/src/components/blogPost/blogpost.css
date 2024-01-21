@@ -1,0 +1,93 @@
+.titlepost1 h2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.details {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.titletext  {
+    color: rgba(0,0,0,.6);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+.center-img {
+    display: flex;
+    justify-content: center;
+}
+.center-img img {
+    border-radius: 20px;
+    width: 1000px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+.content p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0,0,0,.6);
+    width: 1000px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.contentwithadv {
+    display: flex;
+}
+.advertflex {
+    background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin-top: 100px;
+}
+.advertflex h2 {
+    color: #FFF;
+    top: 35px;
+    left: 100px;
+    font-family: Lobster;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+.contenttext h2 {
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contenttext h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+.contenttext h4 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 40px;
+}

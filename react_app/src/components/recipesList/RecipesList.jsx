@@ -2,6 +2,8 @@ import './recipeslist.css';
 import {useEffect, useState} from "react";
 import axios from "axios";
 import React from "react";
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
 import {Link} from "react-router-dom";
 import { ReactComponent as Like } from "../../assets/img/like.svg";
 
@@ -15,6 +17,8 @@ function RecipesList() {
   const [recipes, setRecipes] = useState(null);
   const [search, setSearch] = useState('');
   const [error, setError] = useState(null);
+  const [total_pages, setTotalPages] = useState(1);
+  const [page, setPage] = useState(3);
   const [liked, setLiked] = useState(() => {
     let items = [];
     for(let i = 0; i < localStorage.length; i++) {
@@ -48,14 +52,13 @@ function RecipesList() {
   
   function searchRecipe (e) {
     e.preventDefault();
-    console.log(search)
         axios.get(baseURL, {
       params: {
         type: type,
         app_id: apiId,
         app_key: apiKey,
         query: search,
-        q: search
+        q: search,
     }
   })
     .then(response => {
@@ -71,11 +74,18 @@ function RecipesList() {
       params: {
         type: type,
         app_id: apiId,
-        app_key: apiKey
-    }
+        app_key: apiKey,
+        q: query,
+      }
   })
     .then(response => {
       setRecipes(response.data.hits);
+      let totalPages = response.data._links.next.href
+      if (totalPages && totalPages <= 10) {
+        setTotalPages(totalPages);
+      } else {
+        setTotalPages(10);
+      }
     })
     .catch(error => {
       setError(error);
@@ -97,19 +107,13 @@ function RecipesList() {
             <div onClick={setWishList} data-label={item.recipe.label} className={liked.includes(item.recipe.label) ? "wishlist liked" : "wishlist"}>
               <Like></Like>
             </div>
-            <h2>{item.recipe.label}</h2>
-            <p className="ingredients">
-            <b>Ingredients: </b> 
-            {item.recipe.ingredientLines.map((ingredient, index)=>(
-              <>
-              <div key={index}>
-              <p>{ingredient}</p></div>
-              </>
-            ))}
-          </p>
-            <p>Calories: {item.recipe.calories}</p>
-            <p>Cuisine type: {item.recipe.cuisineType}</p>
             <img src={item.recipe.image}/>
+            <h2>{item.recipe.label}</h2>
+          <div className='caloriesandtype'>
+            <p>Calories: {item.recipe.calories}</p>
+            <h4>Cuisine type: {item.recipe.cuisineType}</h4>
+            <a href={item.recipe.url}>Link to the recipe</a>
+          </div>
           </Link>
         </div>
     );
@@ -120,7 +124,7 @@ function RecipesList() {
         className='search'
       >
         <div className='form-items '>
-        <input 
+        <input placeholder='search for recipes'
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -128,8 +132,18 @@ function RecipesList() {
         <button type="submit">Search</button>
         </div>
       </form>
+      <div className='pagination'>
+        <Stack spacing={2}>
+          <Pagination count={total_pages} />
+      </Stack>
+      </div>
       <div className= "recipessearch">
        {items}
+      </div>
+      <div className='pagination'>
+        <Stack spacing={2}>
+          <Pagination count={total_pages} />
+      </Stack>
       </div>
       </>
     )
