@@ -1,0 +1,119 @@
+.contact {
+    display: flex;
+}
+.form-common {
+    display: flex;
+    gap: 25px;
+}
+.labelname {
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+input::-webkit-input-placeholder {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    }
+    input:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    }
+    input::-moz-placeholder { /* Firefox 19+ */
+    text-align: center;
+    }
+    input:-ms-input-placeholder {
+    text-align: center;
+    }
+.form-item input {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 400px;
+}
+.css-b62m3t-container {
+    margin-top: 15px;
+}
+.css-b62m3t-container .css-13cymwt-control {
+    width: 480px;
+    height: 80px;
+    border-radius: 24px;
+    background: #FFF;
+    border: 1px solid #BCD0E5;
+    align-items: center;
+    width: 400px;
+}
+.css-1hb7zxy-IndicatorsContainer 
+    .css-1u9des2-indicatorSeparator {
+    background-color: white;
+    width: 0;
+}
+.css-1jqq78o-placeholder {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.css-1fdsijx-ValueContainer {
+    font-family: "Inter", sans-serif;
+}
+.form-item-message textarea {
+    width: 820px;
+    height: 80px;
+    border-radius: 24px;
+    background: #FFF;
+    border: 1px solid #BCD0E5;
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+}
+textarea::placeholder {
+    text-align: center;
+    padding: 20px;
+}
+.form-button {
+    margin-top: 20px;
+    width: 180px;
+    height: 64px;
+    border-radius: 16px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+@media (max-width: 425px) {
+    .form-common {
+        display: block;
+        margin-left: 50px;
+    }
+    .form-item-message {
+        margin-left: 50px;
+    }
+    .form-item-message textarea {
+        width: 400px;
+    }
+    .chiefimg {
+        display: none;
+    }
+    .form-button {
+        margin-left: 50px;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .chiefimg  img {
+        width: 200px;
+    }
+    .form-common {
+        display: block;
+        margin-left: 50px;
+    }
+    .labelname {
+        margin-top: 10px;
+    }
+    .form-item-message {
+        margin-left: 50px;
+    }
+    .form-item-message textarea {
+        width: 430px;
+    }
+    .form-button {
+        margin-left: 50px;
+    }
+}

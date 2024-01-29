@@ -1,0 +1,28 @@
+.footerul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.footerli:nth-child(n + 2) {
+    margin-left: 20px;
+}
+ .footerli  {
+    text-decoration: unset;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+}
+.footerli:hover  {
+    transform: scale(1.3);
+}
+.footerli:hover {
+    color: blue;
+}
+.footerli a.active {
+    color: blue;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}

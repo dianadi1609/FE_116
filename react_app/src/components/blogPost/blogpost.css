@@ -1,7 +1,7 @@
 .titlepost1 h2 {
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
@@ -18,6 +18,7 @@
     font-size: 20px;
     margin-bottom: 50px;
     line-height: 35px;
+    font-family: "Inter", sans-serif;
 }
 .center-img {
     display: flex;
@@ -30,7 +31,7 @@
     margin-bottom: 50px;
 }
 .content p {
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -56,7 +57,7 @@
     color: #FFF;
     top: 35px;
     left: 100px;
-    font-family: Lobster;
+    font-family: "Lobster", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -67,7 +68,7 @@
 .contenttext h2 {
     margin-bottom: 25px;
     font-size: 35px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -75,7 +76,7 @@
 }
 .contenttext h3 {
     color: #000;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -84,10 +85,56 @@
 }
 .contenttext h4 {
     color: #000;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     margin-bottom: 40px;
+}
+@media (max-width: 425px) {
+.center-img img {
+    width: 320px;
+    height: auto;
+    margin-left: 450px;
+}
+.titlepost1 h2 {
+    width: 400px;
+    margin-left: 200px;
+}
+.details {
+    margin-left: 400px;
+}
+.titletext {
+    margin-left: 250px;
+    width: 300px
+}
+.content p {
+    width: 300px;
+    margin-left: 250px
+}
+.advertflex {
+    display: none;
+}
+.contenttext h2 {
+margin-left: 150px;
+margin-top: 200px;
+width: 400px
+}
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .center-img img {
+        width: 320px;
+        height: auto;
+    }
+    .titlepost1 h2 {
+        width: 400px;
+        margin-left: 200px;
+    }
+    .content p {
+        width: 600px;
+    }
+    .star {
+        display: none;
+    }
 }

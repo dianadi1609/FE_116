@@ -1,0 +1,126 @@
+.emailform {
+    border-radius: 60px;
+    background: #E7F9FD;
+    margin-bottom: 160px;
+}
+.emailform h2 {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+.emailform h3 {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.vegetables {
+    display: flex;
+    justify-content: space-between;
+}
+.vegetables img {
+    border-radius: 60px;
+    width: 260px;
+    height: 240px;
+}
+form {
+    position: relative;
+    margin-top: 64px;
+}
+form input {
+    width: 480px;
+    height: 80px;
+    border-radius: 24px;
+    background: #FFF;
+    border: 1px solid #BCD0E5;
+    align-items: center;
+    display: flex;
+}
+::-webkit-input-placeholder {
+    text-align:center;
+}
+:-ms-input-placeholder {  
+    text-align:center; 
+ }
+.buttonsubmit {
+    border-radius: 16px;
+    background: #000;
+    width: 160px;
+    height: 60px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.emailform h2 {
+    margin-left: 350px;
+    width: 300px;
+}
+@media (max-width: 425px) {
+    .emailform {
+        background: unset;
+    }
+.emailform h3 {
+    margin-left: 220px;
+    width: 300px;
+}
+.emailform h2 {
+    margin-left: 220px;
+    width: 300px;
+}
+.vegetables {
+    margin-left: 100px;
+}
+.vegetables img {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+.buttonsubmit {
+    width: 100px;
+}
+.vegetables form input {
+width: 350px;
+}
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .emailform {
+        background: unset;
+    }
+    .emailform h3 {
+        margin-left: 220px;
+        width: 300px;
+    }
+    .emailform h2 {
+        margin-left: 220px;
+        width: 300px;
+    }
+    .vegetables {
+        margin-left: 100px;
+    }
+    .vegetables img {
+        width: 100px;
+        height: auto;
+        margin-left: 20px;
+    }
+    .buttonsubmit {
+        width: 100px;
+    }
+    .vegetables form input {
+    width: 350px;
+    }
+}

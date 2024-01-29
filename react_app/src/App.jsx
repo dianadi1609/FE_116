@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import 'reset-css';
-import './assets/css/style.css';
 import Layout from './components/layout/Layout';
 import Home from './components/home/Home';
 import Recipes from './components/recipes/Recipes';

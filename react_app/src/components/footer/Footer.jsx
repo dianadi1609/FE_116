@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
-import MainMenu from "../mainMenu/MainMenu";
+import MenuFooter from "../menuFooter/MenuFooter";
 import logo from '../../assets/img/logo.png';
 import { ReactComponent as Facebook } from "../../assets/img/facebook.svg";
 import { ReactComponent as Twitter } from "../../assets/img/twitter.svg";
 import { ReactComponent as Instagram } from "../../assets/img/instagram.svg";
 import './footer.css';
+const currentYear = new Date().getFullYear();
 
 
 function Footer () {
@@ -14,13 +15,13 @@ function Footer () {
           <Link to="/"><img src={logo} alt="Foodieland." /></Link>
           <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
         </div>
-        <MainMenu />
+        <MenuFooter />
         <div className= 'vector'></div>
         <div className='lastsection'>
         <div className='webflow'>
-          <p>© 2020 Flowbase. Powered by <span>Webflow</span></p>
+          <p>© {currentYear} Flowbase. Powered by <span>Webflow</span></p>
         </div>
-        <div className='social'>
+        <div className='socialmedia'>
           <a href="#"><Facebook className="facebook" width="25" height="25" /></a>
           <a href="#"><Twitter className="twitter" width="25" height="25" /></a>
           <a href="https://www.instagram.com/"><Instagram className="instagram" width="25" height="25" /></a>

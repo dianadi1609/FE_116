@@ -26,11 +26,7 @@ import post2 from "../../assets/img/post2.png";
 import post3 from "../../assets/img/post3.png";
 import post4 from "../../assets/img/post4.png";
 import insta2 from "../../assets/img/insta2.svg";
-import veg from "../../assets/img/veg.png";
-import plate from "../../assets/img/plate.png";
-
-
-import { ReactComponent as Like } from "../../assets/img/like.svg"; 
+import EmailForm from "../emailForm/EmailForm";
 
 
 
@@ -44,9 +40,9 @@ function Home () {
         <div className= 'leftside'>
             <h2>Spicy delicious<br/> chicken wings</h2>
             <p>There's nothing better than a crispy-on-the-outside, juicy-on-the-inside, 
-                hot-as-heck <br/>chicken wing. Whether fried in sriracha or grilled with cayenne pepper, 
-                these recipes<br /> for spicy wings are sure to set your senses aflame. Gather your hot sauce 
-                and chiles,<br /> and make sure to have a cold beverage ready.</p>
+                hot-as-heck chicken wing. Whether fried in sriracha or grilled with cayenne pepper, 
+                these recipes for spicy wings are sure to set your senses aflame. Gather your hot sauce 
+                and chiles, and make sure to have a cold beverage ready.</p>
         </div>
         <div className= 'icons'>
             <div className= 'lefticon'>
@@ -118,7 +114,6 @@ function Home () {
         </div>
         <div className= 'recipes'>
         <div className= 'first'>
-            <Like className="like" />
             <img src={cheeseburger} alt="Cheeseburger." />
             <h4>Big and Juicy Wagyu Beef Cheeseburger</h4>
             <div className= 'iconsrecipes'>
@@ -133,7 +128,6 @@ function Home () {
             </div>
         </div>
             <div className= 'second'>
-                <Like className="like" />
                 <img src={salmon} alt="Salmon." />
                 <h4>Fresh Lime Roasted Salmon with Ginger Sauce</h4>
             <div className= 'iconsrecipes'>
@@ -148,7 +142,6 @@ function Home () {
             </div>
             </div>
             <div className= 'third'>
-                <Like className="like" />
                 <img src={pancake} alt="Pancake." />
                 <h4>Strawberry Oatmeal Pancake with Honey Syrup</h4>
                 <div className= 'iconsrecipes'>
@@ -165,7 +158,6 @@ function Home () {
         </div>
         <div className= 'recipes2'>
         <div className= 'four'>
-            <Like className="like" />
             <img src={salad} alt="Salad." />
             <h4>Fresh and Healthy Mixed Mayonnaise Salad</h4>
             <div className= 'iconsrecipes'>
@@ -180,7 +172,6 @@ function Home () {
             </div>
         </div>
         <div className= 'five'>
-            <Like className="like" />
             <img src={cheese} alt="Cheese." />
             <h4>Chicken Meatballs with Cream Cheese</h4>
             <div className= 'iconsrecipes'>
@@ -202,7 +193,6 @@ function Home () {
         </div>
         <div className= 'recipes3'>
         <div className= 'six'>
-            <Like className="like" />
             <img src={orangepie} alt="Orangepie." />
             <h4>Fruity Pancake with Orange & Blueberry</h4>
             <div className= 'iconsrecipes'>
@@ -217,7 +207,6 @@ function Home () {
             </div>
         </div>
             <div className= 'seven'>
-                <Like className="like" />
                 <img src={rice} alt="Rice." />
                 <h4>The Best Easy One Pot Chicken and Rice</h4>
             <div className= 'iconsrecipes'>
@@ -232,7 +221,6 @@ function Home () {
             </div>
             </div>
             <div className= 'eight'>
-                <Like className="like" />
                 <img src={pasta} alt="Pasta." />
                 <h4>The Creamiest Creamy Chicken and Bacon Pasta</h4>
                 <div className= 'iconsrecipes'>
@@ -290,19 +278,7 @@ function Home () {
                 </a>
             </div>
         </div>
-        <div className='emailform'>
-            <h2>Deliciousness to your inbox</h2>
-            <h3>Subscribe to receive free updated and recipes vie e-mail</h3>
-            <div className='vegetables'>
-                <img src={veg} alt="Vegetables." />
-                <form>
-                <input type="email" name="email" placeholder="Your E-mail Address ..." required />
-                <button className='buttonsubmit'>Subscribe</button>
-                </form>
-                <img src={plate} alt="Plate." />
-            </div>
-        </div>
-        
+        <EmailForm />
         </>
     )
 }

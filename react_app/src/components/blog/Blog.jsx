@@ -39,7 +39,7 @@ import Pagination from "../pagination/Pagination";
     return (
         <>
         <div className= 'vector'></div>
-        <div className="title">
+        <div className="title6">
         <h1>Blog & Articles</h1>
         <h2>From the newest grocery product everyone is talking about, to the recipe that's all over Instagram, you'll find our take on the latest food news and trends here.</h2>
         </div>

@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto 50px auto;
+}
+header {
+    display: flex;
+    
+}
+.logo img {
+    margin-right: 280px;
+}
+.social {
+    display: flex;
+    margin-left: 120px;
+    gap: 25px;
+    height: 20px;
+}
+.facebook:hover * {
+    fill: blue;
+}
+.twitter:hover * {
+    fill: blue;
+}
+.instagram:hover * {
+    fill: blue;
+}
+
+.wishlist.liked svg path{
+  fill: red
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .social {
+        margin-left: 0;
+    }
+    }
+

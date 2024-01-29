@@ -4,7 +4,7 @@ import logo from '../../assets/img/logo.png';
 import { ReactComponent as Facebook } from "../../assets/img/facebook.svg";
 import { ReactComponent as Twitter } from "../../assets/img/twitter.svg";
 import { ReactComponent as Instagram } from "../../assets/img/instagram.svg";
-import '../../assets/css/style.css';
+import './header.css';
 
 function Header () {
     return (

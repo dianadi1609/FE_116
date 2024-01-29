@@ -15,7 +15,7 @@ footer {
 .logo p {
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.60);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 .webflow p {
     color: rgba(0, 0, 0, 0.60);
-    font-family: Eudoxus Sans;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -62,14 +62,14 @@ nav ul li a:hover {
 }
 .webflow p span {
     color: #FF7967;
-    font-family: Eudoxus Sans;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.social {
+.socialmedia {
     display: flex;
     margin-left: 220px;
     gap: 15px;
@@ -87,4 +87,29 @@ nav ul li a:hover {
 
 .wishlist.liked svg path{
   fill: red
+}
+@media (max-width: 425px) {
+    .footernav {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .socialmedia {
+        margin-left: 10px;
+    }
+    .lastsection {
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .logo {
+        margin-left: 100px;
+    }
+    .footernav {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .lastsection {
+        width: 400px;
+    margin-left: 150px
+    }
 }

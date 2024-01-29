@@ -2,7 +2,6 @@ import './recipeslist.css';
 import {useEffect, useState} from "react";
 import axios from "axios";
 import React from "react";
-import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import {Link} from "react-router-dom";
 import { ReactComponent as Like } from "../../assets/img/like.svg";
@@ -17,8 +16,6 @@ function RecipesList() {
   const [recipes, setRecipes] = useState(null);
   const [search, setSearch] = useState('');
   const [error, setError] = useState(null);
-  const [total_pages, setTotalPages] = useState(1);
-  const [page, setPage] = useState(3);
   const [liked, setLiked] = useState(() => {
     let items = [];
     for(let i = 0; i < localStorage.length; i++) {
@@ -80,12 +77,6 @@ function RecipesList() {
   })
     .then(response => {
       setRecipes(response.data.hits);
-      let totalPages = response.data._links.next.href
-      if (totalPages && totalPages <= 10) {
-        setTotalPages(totalPages);
-      } else {
-        setTotalPages(10);
-      }
     })
     .catch(error => {
       setError(error);
@@ -130,18 +121,8 @@ function RecipesList() {
         <button type="submit">Search</button>
         </div>
       </form>
-      <div className='pagination'>
-        <Stack spacing={2}>
-          <Pagination count={total_pages} />
-      </Stack>
-      </div>
       <div className= "recipessearch">
        {items}
-      </div>
-      <div className='pagination'>
-        <Stack spacing={2}>
-          <Pagination count={total_pages} />
-      </Stack>
       </div>
       </>
     )
