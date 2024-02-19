@@ -1,0 +1,102 @@
+.aboutus {
+    display: flex;
+    gap: 25px;
+}
+.aboutus h2 {
+    font-size: 48px;
+    font-weight: 600px;
+    font-family: "Inter", sans-serif;
+}
+.aboutus h3 {
+    color: rgba(0,0,0,.6);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+.aboutimg img {
+    border-radius: 20px;
+    width: 600px;
+    height: 470px;
+}
+.sectionschefs h2 {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.chefsflex {
+    display: flex;
+    justify-content: space-between;
+}
+.chef img {
+    border-radius: 50%;
+    height: 300px;
+}
+.chef h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.chef p {
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+@media (max-width: 425px) {
+    .aboutus {
+        display: block;
+        margin-left: 150px;
+        width: 300px;
+    }
+    .aboutimg  img{
+        width: 300px;
+        height: auto;
+    }
+    .sectionschefs h2 {
+        margin-left: 200px;
+    }
+    .chefsflex {
+        display: block;
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .aboutus {
+        margin-left: 150px;
+        display: block;
+    }
+    .sectionschefs h2 {
+        margin-left: 200px;
+    }
+    .aboutus h3 {
+        text-align: center;
+    }
+    .aboutus h3 {
+
+    }
+    .chefsflex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+    }
+}
